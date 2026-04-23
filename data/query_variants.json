@@ -1,0 +1,15 @@
+{
+  "description": "Extra Pullpush q strings merged under one canonical target (canonical_query on JSONL). Keys: lowercase canonical matching target_words. Omit a word to use only the primary string from target_words.json.",
+  "by_canonical": {
+    "rizz": ["rizz", "rizzing", "rizzed"],
+    "sigma": ["sigma", "sigmas"],
+    "glaze": ["glaze", "glazing", "glazed"],
+    "simp": ["simp", "simping", "simped"],
+    "slay": ["slay", "slaying", "slayed"],
+    "cap": ["cap", "capping", "capped"],
+    "yeet": ["yeet", "yeeted", "yeeting"],
+    "vibe": ["vibe", "vibes", "vibing"],
+    "ghosted": ["ghosted", "ghosting"],
+    "flex": ["flex", "flexing", "flexed"]
+  }
+}

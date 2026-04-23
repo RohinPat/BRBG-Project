@@ -1,0 +1,2038 @@
+{
+  "generated_at_utc": "2026-04-19T17:14:20.481639+00:00",
+  "jsonl_path": "C:\\Users\\rohin\\Documents\\NLP\\programming\\data\\reddit_sample\\reddit_sample_comments.jsonl",
+  "jsonl_lines_total": 500052,
+  "target_words_count": 100,
+  "words_with_early_gt_0": 96,
+  "words_with_late_gt_0": 100,
+  "words_with_both_bins_ge_20": 94,
+  "words_with_both_bins_ge_30": 92,
+  "words_with_both_bins_ge_50": 90,
+  "aggregate_by_subreddit_bin": {
+    "askreddit": {
+      "early": 20162,
+      "late": 64297
+    },
+    "genz": {
+      "early": 13174,
+      "late": 32362
+    },
+    "memes": {
+      "early": 94569,
+      "late": 72483
+    },
+    "teenagers": {
+      "early": 103187,
+      "late": 99810
+    }
+  },
+  "per_word": {
+    "aura": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 512,
+        "genz": 12,
+        "memes": 1276,
+        "teenagers": 1200
+      },
+      "by_subreddit_late": {
+        "askreddit": 1690,
+        "genz": 97,
+        "memes": 276,
+        "teenagers": 937
+      }
+    },
+    "based": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 691,
+        "memes": 1111,
+        "teenagers": 1198
+      },
+      "by_subreddit_late": {
+        "askreddit": 334,
+        "genz": 819,
+        "memes": 871,
+        "teenagers": 976
+      }
+    },
+    "bet": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 277,
+        "memes": 1263,
+        "teenagers": 1460
+      },
+      "by_subreddit_late": {
+        "askreddit": 483,
+        "genz": 447,
+        "memes": 958,
+        "teenagers": 1112
+      }
+    },
+    "book": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 642,
+        "memes": 1152,
+        "teenagers": 1206
+      },
+      "by_subreddit_late": {
+        "askreddit": 368,
+        "genz": 688,
+        "memes": 935,
+        "teenagers": 1009
+      }
+    },
+    "bottle": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 46,
+        "memes": 1382,
+        "teenagers": 1572
+      },
+      "by_subreddit_late": {
+        "askreddit": 560,
+        "genz": 296,
+        "memes": 1092,
+        "teenagers": 1052
+      }
+    },
+    "brainrot": {
+      "group": "brainrot",
+      "n_early": 118,
+      "n_late": 2066,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 59,
+        "genz": 3,
+        "memes": 19,
+        "teenagers": 37
+      },
+      "by_subreddit_late": {
+        "askreddit": 540,
+        "genz": 515,
+        "memes": 378,
+        "teenagers": 633
+      }
+    },
+    "bridge": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 47,
+        "memes": 1439,
+        "teenagers": 1514
+      },
+      "by_subreddit_late": {
+        "askreddit": 488,
+        "genz": 305,
+        "memes": 1085,
+        "teenagers": 1122
+      }
+    },
+    "bussin": {
+      "group": "brainrot",
+      "n_early": 1124,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 87,
+        "genz": 3,
+        "memes": 442,
+        "teenagers": 592
+      },
+      "by_subreddit_late": {
+        "askreddit": 1221,
+        "genz": 279,
+        "memes": 446,
+        "teenagers": 1054
+      }
+    },
+    "camp": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 169,
+        "memes": 1369,
+        "teenagers": 1462
+      },
+      "by_subreddit_late": {
+        "askreddit": 475,
+        "genz": 388,
+        "memes": 992,
+        "teenagers": 1145
+      }
+    },
+    "cap": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 97,
+        "memes": 1441,
+        "teenagers": 1462
+      },
+      "by_subreddit_late": {
+        "askreddit": 634,
+        "genz": 325,
+        "memes": 985,
+        "teenagers": 1056
+      }
+    },
+    "chad": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 123,
+        "memes": 1384,
+        "teenagers": 1493
+      },
+      "by_subreddit_late": {
+        "askreddit": 494,
+        "genz": 293,
+        "memes": 1069,
+        "teenagers": 1144
+      }
+    },
+    "chair": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 38,
+        "memes": 1417,
+        "teenagers": 1545
+      },
+      "by_subreddit_late": {
+        "askreddit": 502,
+        "genz": 300,
+        "memes": 1077,
+        "teenagers": 1121
+      }
+    },
+    "cheugy": {
+      "group": "brainrot",
+      "n_early": 239,
+      "n_late": 883,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 191,
+        "genz": 3,
+        "memes": 29,
+        "teenagers": 16
+      },
+      "by_subreddit_late": {
+        "askreddit": 457,
+        "genz": 253,
+        "memes": 97,
+        "teenagers": 76
+      }
+    },
+    "chronically online": {
+      "group": "brainrot",
+      "n_early": 277,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 204,
+        "genz": 4,
+        "memes": 9,
+        "teenagers": 60
+      },
+      "by_subreddit_late": {
+        "askreddit": 1039,
+        "genz": 427,
+        "memes": 230,
+        "teenagers": 1304
+      }
+    },
+    "city": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 411,
+        "memes": 1242,
+        "teenagers": 1347
+      },
+      "by_subreddit_late": {
+        "askreddit": 491,
+        "genz": 512,
+        "memes": 981,
+        "teenagers": 1016
+      }
+    },
+    "coffee": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 51,
+        "memes": 1381,
+        "teenagers": 1568
+      },
+      "by_subreddit_late": {
+        "askreddit": 516,
+        "genz": 303,
+        "memes": 1069,
+        "teenagers": 1112
+      }
+    },
+    "cope": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 96,
+        "memes": 1313,
+        "teenagers": 1591
+      },
+      "by_subreddit_late": {
+        "askreddit": 498,
+        "genz": 372,
+        "memes": 1010,
+        "teenagers": 1120
+      }
+    },
+    "copium": {
+      "group": "brainrot",
+      "n_early": 945,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 447,
+        "genz": 2,
+        "memes": 219,
+        "teenagers": 277
+      },
+      "by_subreddit_late": {
+        "askreddit": 1156,
+        "genz": 273,
+        "memes": 733,
+        "teenagers": 838
+      }
+    },
+    "cringe": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 554,
+        "memes": 1194,
+        "teenagers": 1252
+      },
+      "by_subreddit_late": {
+        "askreddit": 400,
+        "genz": 702,
+        "memes": 924,
+        "teenagers": 974
+      }
+    },
+    "delulu": {
+      "group": "brainrot",
+      "n_early": 23,
+      "n_late": 2017,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 13,
+        "genz": 1,
+        "memes": 4,
+        "teenagers": 5
+      },
+      "by_subreddit_late": {
+        "askreddit": 750,
+        "genz": 125,
+        "memes": 49,
+        "teenagers": 1093
+      }
+    },
+    "door": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 159,
+        "memes": 1412,
+        "teenagers": 1429
+      },
+      "by_subreddit_late": {
+        "askreddit": 473,
+        "genz": 369,
+        "memes": 1082,
+        "teenagers": 1076
+      }
+    },
+    "drip": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 10,
+        "memes": 1407,
+        "teenagers": 1583
+      },
+      "by_subreddit_late": {
+        "askreddit": 629,
+        "genz": 148,
+        "memes": 944,
+        "teenagers": 1279
+      }
+    },
+    "extra": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 172,
+        "memes": 1382,
+        "teenagers": 1446
+      },
+      "by_subreddit_late": {
+        "askreddit": 478,
+        "genz": 391,
+        "memes": 1021,
+        "teenagers": 1110
+      }
+    },
+    "fanum tax": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 1610,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {},
+      "by_subreddit_late": {
+        "askreddit": 361,
+        "genz": 315,
+        "memes": 196,
+        "teenagers": 738
+      }
+    },
+    "fire": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 385,
+        "memes": 1178,
+        "teenagers": 1437
+      },
+      "by_subreddit_late": {
+        "askreddit": 384,
+        "genz": 509,
+        "memes": 948,
+        "teenagers": 1159
+      }
+    },
+    "flex": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 64,
+        "memes": 1459,
+        "teenagers": 1477
+      },
+      "by_subreddit_late": {
+        "askreddit": 591,
+        "genz": 224,
+        "memes": 952,
+        "teenagers": 1233
+      }
+    },
+    "forest": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 16,
+        "memes": 1447,
+        "teenagers": 1537
+      },
+      "by_subreddit_late": {
+        "askreddit": 482,
+        "genz": 271,
+        "memes": 1124,
+        "teenagers": 1123
+      }
+    },
+    "fr": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 78,
+        "memes": 1458,
+        "teenagers": 1464
+      },
+      "by_subreddit_late": {
+        "askreddit": 407,
+        "genz": 579,
+        "memes": 947,
+        "teenagers": 1067
+      }
+    },
+    "friend": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 988,
+        "memes": 911,
+        "teenagers": 1101
+      },
+      "by_subreddit_late": {
+        "askreddit": 373,
+        "genz": 869,
+        "memes": 867,
+        "teenagers": 891
+      }
+    },
+    "garden": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 41,
+        "memes": 1435,
+        "teenagers": 1524
+      },
+      "by_subreddit_late": {
+        "askreddit": 473,
+        "genz": 312,
+        "memes": 1070,
+        "teenagers": 1145
+      }
+    },
+    "ghosted": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 8,
+        "memes": 615,
+        "teenagers": 2377
+      },
+      "by_subreddit_late": {
+        "askreddit": 936,
+        "genz": 213,
+        "memes": 261,
+        "teenagers": 1590
+      }
+    },
+    "gigachad": {
+      "group": "brainrot",
+      "n_early": 1501,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 129,
+        "genz": 1,
+        "memes": 664,
+        "teenagers": 707
+      },
+      "by_subreddit_late": {
+        "askreddit": 567,
+        "genz": 128,
+        "memes": 1041,
+        "teenagers": 1264
+      }
+    },
+    "glaze": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1547,
+        "genz": 4,
+        "memes": 786,
+        "teenagers": 663
+      },
+      "by_subreddit_late": {
+        "askreddit": 2081,
+        "genz": 83,
+        "memes": 288,
+        "teenagers": 548
+      }
+    },
+    "glazing": {
+      "group": "brainrot",
+      "n_early": 942,
+      "n_late": 1560,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 865,
+        "memes": 55,
+        "teenagers": 22
+      },
+      "by_subreddit_late": {
+        "askreddit": 771,
+        "genz": 201,
+        "memes": 143,
+        "teenagers": 445
+      }
+    },
+    "goat": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 31,
+        "memes": 1490,
+        "teenagers": 1479
+      },
+      "by_subreddit_late": {
+        "askreddit": 495,
+        "genz": 339,
+        "memes": 1021,
+        "teenagers": 1145
+      }
+    },
+    "goated": {
+      "group": "brainrot",
+      "n_early": 1842,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 307,
+        "genz": 18,
+        "memes": 658,
+        "teenagers": 859
+      },
+      "by_subreddit_late": {
+        "askreddit": 782,
+        "genz": 318,
+        "memes": 627,
+        "teenagers": 1273
+      }
+    },
+    "grimace shake": {
+      "group": "brainrot",
+      "n_early": 105,
+      "n_late": 869,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 103,
+        "teenagers": 2
+      },
+      "by_subreddit_late": {
+        "askreddit": 383,
+        "genz": 44,
+        "memes": 55,
+        "teenagers": 387
+      }
+    },
+    "gyatt": {
+      "group": "brainrot",
+      "n_early": 4,
+      "n_late": 2020,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 1,
+        "teenagers": 3
+      },
+      "by_subreddit_late": {
+        "askreddit": 477,
+        "genz": 387,
+        "memes": 319,
+        "teenagers": 837
+      }
+    },
+    "highkey": {
+      "group": "general_slang",
+      "n_early": 2114,
+      "n_late": 1018,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 908,
+        "genz": 8,
+        "memes": 298,
+        "teenagers": 900
+      },
+      "by_subreddit_late": {
+        "askreddit": 414,
+        "genz": 69,
+        "memes": 50,
+        "teenagers": 485
+      }
+    },
+    "hopium": {
+      "group": "brainrot",
+      "n_early": 165,
+      "n_late": 533,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 130,
+        "memes": 23,
+        "teenagers": 12
+      },
+      "by_subreddit_late": {
+        "askreddit": 339,
+        "genz": 75,
+        "memes": 69,
+        "teenagers": 50
+      }
+    },
+    "hospital": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 102,
+        "memes": 1425,
+        "teenagers": 1473
+      },
+      "by_subreddit_late": {
+        "askreddit": 462,
+        "genz": 312,
+        "memes": 1096,
+        "teenagers": 1130
+      }
+    },
+    "ick": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 2031,
+        "genz": 2,
+        "memes": 480,
+        "teenagers": 487
+      },
+      "by_subreddit_late": {
+        "askreddit": 1505,
+        "genz": 277,
+        "memes": 272,
+        "teenagers": 946
+      }
+    },
+    "iconic": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 88,
+        "memes": 1457,
+        "teenagers": 1455
+      },
+      "by_subreddit_late": {
+        "askreddit": 717,
+        "genz": 258,
+        "memes": 1023,
+        "teenagers": 1002
+      }
+    },
+    "l rizz": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 1179,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {},
+      "by_subreddit_late": {
+        "askreddit": 143,
+        "genz": 49,
+        "memes": 54,
+        "teenagers": 933
+      }
+    },
+    "letter": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 95,
+        "memes": 1437,
+        "teenagers": 1468
+      },
+      "by_subreddit_late": {
+        "askreddit": 482,
+        "genz": 344,
+        "memes": 1050,
+        "teenagers": 1124
+      }
+    },
+    "lit": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 89,
+        "memes": 1421,
+        "teenagers": 1490
+      },
+      "by_subreddit_late": {
+        "askreddit": 479,
+        "genz": 348,
+        "memes": 987,
+        "teenagers": 1186
+      }
+    },
+    "looksmax": {
+      "group": "brainrot",
+      "n_early": 44,
+      "n_late": 208,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 21,
+        "memes": 4,
+        "teenagers": 19
+      },
+      "by_subreddit_late": {
+        "askreddit": 44,
+        "genz": 31,
+        "memes": 7,
+        "teenagers": 126
+      }
+    },
+    "lore": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 20,
+        "memes": 1488,
+        "teenagers": 1492
+      },
+      "by_subreddit_late": {
+        "askreddit": 552,
+        "genz": 175,
+        "memes": 1088,
+        "teenagers": 1185
+      }
+    },
+    "lowkey": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 57,
+        "memes": 1446,
+        "teenagers": 1497
+      },
+      "by_subreddit_late": {
+        "askreddit": 769,
+        "genz": 321,
+        "memes": 501,
+        "teenagers": 1409
+      }
+    },
+    "main character": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 28,
+        "memes": 1492,
+        "teenagers": 1480
+      },
+      "by_subreddit_late": {
+        "askreddit": 487,
+        "genz": 265,
+        "memes": 1087,
+        "teenagers": 1161
+      }
+    },
+    "mald": {
+      "group": "brainrot",
+      "n_early": 349,
+      "n_late": 1484,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 93,
+        "genz": 1,
+        "memes": 78,
+        "teenagers": 177
+      },
+      "by_subreddit_late": {
+        "askreddit": 223,
+        "genz": 89,
+        "memes": 271,
+        "teenagers": 901
+      }
+    },
+    "market": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 444,
+        "memes": 1140,
+        "teenagers": 1416
+      },
+      "by_subreddit_late": {
+        "askreddit": 471,
+        "genz": 459,
+        "memes": 958,
+        "teenagers": 1112
+      }
+    },
+    "mewing": {
+      "group": "brainrot",
+      "n_early": 1055,
+      "n_late": 2174,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 768,
+        "memes": 53,
+        "teenagers": 234
+      },
+      "by_subreddit_late": {
+        "askreddit": 559,
+        "genz": 149,
+        "memes": 215,
+        "teenagers": 1251
+      }
+    },
+    "mid": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 1145,
+        "memes": 900,
+        "teenagers": 955
+      },
+      "by_subreddit_late": {
+        "askreddit": 317,
+        "genz": 986,
+        "memes": 806,
+        "teenagers": 891
+      }
+    },
+    "mog": {
+      "group": "brainrot",
+      "n_early": 752,
+      "n_late": 1266,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 526,
+        "genz": 2,
+        "memes": 103,
+        "teenagers": 121
+      },
+      "by_subreddit_late": {
+        "askreddit": 442,
+        "genz": 58,
+        "memes": 87,
+        "teenagers": 679
+      }
+    },
+    "mogging": {
+      "group": "brainrot",
+      "n_early": 23,
+      "n_late": 400,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 12,
+        "memes": 1,
+        "teenagers": 10
+      },
+      "by_subreddit_late": {
+        "askreddit": 64,
+        "genz": 44,
+        "memes": 22,
+        "teenagers": 270
+      }
+    },
+    "morning": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 137,
+        "memes": 1356,
+        "teenagers": 1507
+      },
+      "by_subreddit_late": {
+        "askreddit": 482,
+        "genz": 373,
+        "memes": 1048,
+        "teenagers": 1097
+      }
+    },
+    "music": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 946,
+        "memes": 924,
+        "teenagers": 1130
+      },
+      "by_subreddit_late": {
+        "askreddit": 363,
+        "genz": 848,
+        "memes": 878,
+        "teenagers": 911
+      }
+    },
+    "no cap": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 9,
+        "memes": 1394,
+        "teenagers": 1597
+      },
+      "by_subreddit_late": {
+        "askreddit": 860,
+        "genz": 330,
+        "memes": 807,
+        "teenagers": 1003
+      }
+    },
+    "normie": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 51,
+        "memes": 1467,
+        "teenagers": 1482
+      },
+      "by_subreddit_late": {
+        "askreddit": 1012,
+        "genz": 177,
+        "memes": 886,
+        "teenagers": 925
+      }
+    },
+    "npc": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 35,
+        "memes": 1796,
+        "teenagers": 1169
+      },
+      "by_subreddit_late": {
+        "askreddit": 495,
+        "genz": 246,
+        "memes": 1086,
+        "teenagers": 1173
+      }
+    },
+    "ocean": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 74,
+        "memes": 1397,
+        "teenagers": 1529
+      },
+      "by_subreddit_late": {
+        "askreddit": 493,
+        "genz": 301,
+        "memes": 1085,
+        "teenagers": 1121
+      }
+    },
+    "ohio": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 20,
+        "memes": 1429,
+        "teenagers": 1551
+      },
+      "by_subreddit_late": {
+        "askreddit": 486,
+        "genz": 356,
+        "memes": 1039,
+        "teenagers": 1119
+      }
+    },
+    "paper": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 231,
+        "memes": 1360,
+        "teenagers": 1409
+      },
+      "by_subreddit_late": {
+        "askreddit": 468,
+        "genz": 379,
+        "memes": 1039,
+        "teenagers": 1114
+      }
+    },
+    "parasocial": {
+      "group": "brainrot",
+      "n_early": 1207,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1041,
+        "genz": 6,
+        "memes": 85,
+        "teenagers": 75
+      },
+      "by_subreddit_late": {
+        "askreddit": 2118,
+        "genz": 155,
+        "memes": 362,
+        "teenagers": 365
+      }
+    },
+    "period": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 498,
+        "memes": 1169,
+        "teenagers": 1333
+      },
+      "by_subreddit_late": {
+        "askreddit": 413,
+        "genz": 640,
+        "memes": 922,
+        "teenagers": 1025
+      }
+    },
+    "phone": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 887,
+        "memes": 1059,
+        "teenagers": 1054
+      },
+      "by_subreddit_late": {
+        "askreddit": 431,
+        "genz": 744,
+        "memes": 903,
+        "teenagers": 922
+      }
+    },
+    "poggers": {
+      "group": "brainrot",
+      "n_early": 2540,
+      "n_late": 2438,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 167,
+        "genz": 20,
+        "memes": 995,
+        "teenagers": 1358
+      },
+      "by_subreddit_late": {
+        "askreddit": 713,
+        "genz": 105,
+        "memes": 372,
+        "teenagers": 1248
+      }
+    },
+    "pressed": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 27,
+        "memes": 1510,
+        "teenagers": 1463
+      },
+      "by_subreddit_late": {
+        "askreddit": 595,
+        "genz": 306,
+        "memes": 904,
+        "teenagers": 1195
+      }
+    },
+    "ratio": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 25,
+        "memes": 1489,
+        "teenagers": 1486
+      },
+      "by_subreddit_late": {
+        "askreddit": 495,
+        "genz": 327,
+        "memes": 1003,
+        "teenagers": 1175
+      }
+    },
+    "rent free": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1121,
+        "genz": 36,
+        "memes": 1078,
+        "teenagers": 765
+      },
+      "by_subreddit_late": {
+        "askreddit": 1035,
+        "genz": 404,
+        "memes": 899,
+        "teenagers": 662
+      }
+    },
+    "river": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 37,
+        "memes": 1412,
+        "teenagers": 1551
+      },
+      "by_subreddit_late": {
+        "askreddit": 427,
+        "genz": 322,
+        "memes": 1082,
+        "teenagers": 1169
+      }
+    },
+    "rizz": {
+      "group": "brainrot",
+      "n_early": 43,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 29,
+        "memes": 7,
+        "teenagers": 7
+      },
+      "by_subreddit_late": {
+        "askreddit": 559,
+        "genz": 337,
+        "memes": 475,
+        "teenagers": 1629
+      }
+    },
+    "rizzler": {
+      "group": "brainrot",
+      "n_early": 11,
+      "n_late": 2166,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {
+        "askreddit": 10,
+        "memes": 1
+      },
+      "by_subreddit_late": {
+        "askreddit": 413,
+        "genz": 143,
+        "memes": 123,
+        "teenagers": 1487
+      }
+    },
+    "salty": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 44,
+        "memes": 1475,
+        "teenagers": 1481
+      },
+      "by_subreddit_late": {
+        "askreddit": 597,
+        "genz": 194,
+        "memes": 1074,
+        "teenagers": 1135
+      }
+    },
+    "school": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 1042,
+        "memes": 880,
+        "teenagers": 1078
+      },
+      "by_subreddit_late": {
+        "askreddit": 347,
+        "genz": 893,
+        "memes": 826,
+        "teenagers": 934
+      }
+    },
+    "seethe": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1630,
+        "genz": 32,
+        "memes": 570,
+        "teenagers": 768
+      },
+      "by_subreddit_late": {
+        "askreddit": 1326,
+        "genz": 304,
+        "memes": 641,
+        "teenagers": 729
+      }
+    },
+    "shook": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 20,
+        "memes": 1648,
+        "teenagers": 1332
+      },
+      "by_subreddit_late": {
+        "askreddit": 1711,
+        "genz": 154,
+        "memes": 421,
+        "teenagers": 714
+      }
+    },
+    "side eye": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 28,
+        "memes": 1278,
+        "teenagers": 1694
+      },
+      "by_subreddit_late": {
+        "askreddit": 1075,
+        "genz": 255,
+        "memes": 492,
+        "teenagers": 1178
+      }
+    },
+    "sigma": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1323,
+        "genz": 6,
+        "memes": 882,
+        "teenagers": 789
+      },
+      "by_subreddit_late": {
+        "askreddit": 437,
+        "genz": 295,
+        "memes": 1033,
+        "teenagers": 1235
+      }
+    },
+    "simp": {
+      "group": "brainrot",
+      "n_early": 2965,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 474,
+        "genz": 31,
+        "memes": 1094,
+        "teenagers": 1366
+      },
+      "by_subreddit_late": {
+        "askreddit": 545,
+        "genz": 218,
+        "memes": 1095,
+        "teenagers": 1142
+      }
+    },
+    "skibidi": {
+      "group": "brainrot",
+      "n_early": 618,
+      "n_late": 2130,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 341,
+        "genz": 1,
+        "memes": 215,
+        "teenagers": 61
+      },
+      "by_subreddit_late": {
+        "askreddit": 631,
+        "genz": 337,
+        "memes": 553,
+        "teenagers": 609
+      }
+    },
+    "skibidi toilet": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 2000,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {},
+      "by_subreddit_late": {
+        "askreddit": 447,
+        "genz": 529,
+        "memes": 422,
+        "teenagers": 602
+      }
+    },
+    "slay": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 7,
+        "memes": 1530,
+        "teenagers": 1463
+      },
+      "by_subreddit_late": {
+        "askreddit": 703,
+        "genz": 126,
+        "memes": 735,
+        "teenagers": 1436
+      }
+    },
+    "snatched": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1848,
+        "genz": 6,
+        "memes": 589,
+        "teenagers": 557
+      },
+      "by_subreddit_late": {
+        "askreddit": 2390,
+        "genz": 92,
+        "memes": 143,
+        "teenagers": 375
+      }
+    },
+    "summer": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 380,
+        "memes": 1239,
+        "teenagers": 1381
+      },
+      "by_subreddit_late": {
+        "askreddit": 354,
+        "genz": 653,
+        "memes": 961,
+        "teenagers": 1032
+      }
+    },
+    "sus": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 41,
+        "memes": 1125,
+        "teenagers": 1834
+      },
+      "by_subreddit_late": {
+        "askreddit": 516,
+        "genz": 248,
+        "memes": 1051,
+        "teenagers": 1185
+      }
+    },
+    "table": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 104,
+        "memes": 1366,
+        "teenagers": 1530
+      },
+      "by_subreddit_late": {
+        "askreddit": 376,
+        "genz": 361,
+        "memes": 1115,
+        "teenagers": 1148
+      }
+    },
+    "tea": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 49,
+        "memes": 1471,
+        "teenagers": 1480
+      },
+      "by_subreddit_late": {
+        "askreddit": 392,
+        "genz": 320,
+        "memes": 1108,
+        "teenagers": 1180
+      }
+    },
+    "touch grass": {
+      "group": "brainrot",
+      "n_early": 2502,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 1355,
+        "genz": 2,
+        "memes": 465,
+        "teenagers": 680
+      },
+      "by_subreddit_late": {
+        "askreddit": 494,
+        "genz": 343,
+        "memes": 1011,
+        "teenagers": 1152
+      }
+    },
+    "unalive": {
+      "group": "brainrot",
+      "n_early": 1393,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 908,
+        "genz": 2,
+        "memes": 229,
+        "teenagers": 254
+      },
+      "by_subreddit_late": {
+        "askreddit": 1729,
+        "genz": 159,
+        "memes": 360,
+        "teenagers": 752
+      }
+    },
+    "unc": {
+      "group": "brainrot",
+      "n_early": 1191,
+      "n_late": 1719,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "askreddit": 961,
+        "genz": 1,
+        "memes": 101,
+        "teenagers": 128
+      },
+      "by_subreddit_late": {
+        "askreddit": 750,
+        "genz": 286,
+        "memes": 59,
+        "teenagers": 624
+      }
+    },
+    "vibe": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 220,
+        "memes": 1309,
+        "teenagers": 1471
+      },
+      "by_subreddit_late": {
+        "askreddit": 514,
+        "genz": 536,
+        "memes": 854,
+        "teenagers": 1096
+      }
+    },
+    "w rizz": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 2212,
+      "both_bins_ge_20": false,
+      "both_bins_ge_30": false,
+      "both_bins_ge_50": false,
+      "both_bins_ge_120": false,
+      "by_subreddit_early": {},
+      "by_subreddit_late": {
+        "askreddit": 286,
+        "genz": 41,
+        "memes": 60,
+        "teenagers": 1825
+      }
+    },
+    "water": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 269,
+        "memes": 1360,
+        "teenagers": 1371
+      },
+      "by_subreddit_late": {
+        "askreddit": 477,
+        "genz": 408,
+        "memes": 1023,
+        "teenagers": 1092
+      }
+    },
+    "wig": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 8,
+        "memes": 1650,
+        "teenagers": 1342
+      },
+      "by_subreddit_late": {
+        "askreddit": 1126,
+        "genz": 95,
+        "memes": 658,
+        "teenagers": 1121
+      }
+    },
+    "window": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 183,
+        "memes": 1354,
+        "teenagers": 1463
+      },
+      "by_subreddit_late": {
+        "askreddit": 356,
+        "genz": 413,
+        "memes": 1079,
+        "teenagers": 1152
+      }
+    },
+    "winter": {
+      "group": "standard_control",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 82,
+        "memes": 1323,
+        "teenagers": 1595
+      },
+      "by_subreddit_late": {
+        "askreddit": 544,
+        "genz": 352,
+        "memes": 1050,
+        "teenagers": 1054
+      }
+    },
+    "woke": {
+      "group": "general_slang",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 120,
+        "memes": 1415,
+        "teenagers": 1465
+      },
+      "by_subreddit_late": {
+        "askreddit": 470,
+        "genz": 375,
+        "memes": 1014,
+        "teenagers": 1141
+      }
+    },
+    "yeet": {
+      "group": "brainrot",
+      "n_early": 3000,
+      "n_late": 3000,
+      "both_bins_ge_20": true,
+      "both_bins_ge_30": true,
+      "both_bins_ge_50": true,
+      "both_bins_ge_120": true,
+      "by_subreddit_early": {
+        "genz": 131,
+        "memes": 1384,
+        "teenagers": 1485
+      },
+      "by_subreddit_late": {
+        "askreddit": 1138,
+        "genz": 154,
+        "memes": 926,
+        "teenagers": 782
+      }
+    }
+  },
+  "note": "Counts use created_utc calendar year and early/late bins; lexicon key prefers canonical_query when set (query variants). per_word.by_subreddit_* stratifies matched rows."
+}

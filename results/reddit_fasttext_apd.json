@@ -1,0 +1,645 @@
+{
+  "generated_at_utc": "2026-04-19T17:18:11.785133+00:00",
+  "method": "gensim_fasttext_mean_word_vectors",
+  "data": "C:\\Users\\rohin\\Documents\\NLP\\programming\\data\\reddit_sample\\reddit_sample_comments.jsonl",
+  "max_per_bin": 120,
+  "min_bin_for_group_stats": 20,
+  "vector_size": 100,
+  "early_years": [
+    2019,
+    2020,
+    2021
+  ],
+  "late_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "per_word": {
+    "rizz": {
+      "group": "brainrot",
+      "n_early": 39,
+      "n_late": 120,
+      "apd": 9.941949974745512e-05
+    },
+    "sigma": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 6.914788627909729e-06
+    },
+    "bussin": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.0001506111293565482
+    },
+    "mid": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.35439140649396e-05
+    },
+    "cap": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.814213636767818e-06
+    },
+    "gyatt": {
+      "group": "brainrot",
+      "n_early": 4,
+      "n_late": 120,
+      "apd": 0.000754586246330291
+    },
+    "skibidi": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 9.938225412042812e-05
+    },
+    "glaze": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.5197163015254773e-06
+    },
+    "glazing": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.0152701836195774e-06
+    },
+    "ohio": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.2969780073035508e-05
+    },
+    "delulu": {
+      "group": "brainrot",
+      "n_early": 23,
+      "n_late": 120,
+      "apd": 5.578238869929919e-06
+    },
+    "mog": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 8.48614436108619e-05
+    },
+    "ratio": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.844015620619757e-06
+    },
+    "ick": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.707231255451916e-06
+    },
+    "simp": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 7.076861948007718e-05
+    },
+    "aura": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.0366704777406994e-06
+    },
+    "mewing": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.473613787718932e-06
+    },
+    "looksmax": {
+      "group": "brainrot",
+      "n_early": 44,
+      "n_late": 120,
+      "apd": 3.2863270007510437e-06
+    },
+    "rizzler": {
+      "group": "brainrot",
+      "n_early": 10,
+      "n_late": 120,
+      "apd": 0.0034849285148084164
+    },
+    "brainrot": {
+      "group": "brainrot",
+      "n_early": 118,
+      "n_late": 120,
+      "apd": 7.889714652264956e-06
+    },
+    "unc": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.7528389435028657e-05
+    },
+    "unalive": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.416074605411268e-06
+    },
+    "parasocial": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.3049178960500285e-05
+    },
+    "cheugy": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.516749297385104e-06
+    },
+    "yeet": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.0513431334402412e-05
+    },
+    "cope": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.59561704499356e-06
+    },
+    "npc": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.00795606430619955
+    },
+    "lore": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.8751335321430815e-06
+    },
+    "cringe": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.908926712232642e-06
+    },
+    "goated": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.002267654286697507
+    },
+    "poggers": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.0050951819866895676
+    },
+    "mogging": {
+      "group": "brainrot",
+      "n_early": 23,
+      "n_late": 120,
+      "apd": 2.5035635189851746e-05
+    },
+    "chad": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.94094955077162e-05
+    },
+    "gigachad": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.68545947317034e-05
+    },
+    "mald": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.01742769405245781
+    },
+    "copium": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.609840172837721e-06
+    },
+    "hopium": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.1515294267592253e-06
+    },
+    "seethe": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.6267855395853985e-06
+    },
+    "normie": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.166506914771162e-05
+    },
+    "pressed": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.062697376459255e-06
+    },
+    "rent free": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.3659323485626373e-05
+    },
+    "main character": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.1029222807555925e-06
+    },
+    "side eye": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.739997166325338e-06
+    },
+    "chronically online": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.488279162411345e-06
+    },
+    "fanum tax": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 120,
+      "apd": null
+    },
+    "grimace shake": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 120,
+      "apd": null
+    },
+    "touch grass": {
+      "group": "brainrot",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 7.707249096711166e-06
+    },
+    "skibidi toilet": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 120,
+      "apd": null
+    },
+    "w rizz": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 120,
+      "apd": null
+    },
+    "l rizz": {
+      "group": "brainrot",
+      "n_early": 0,
+      "n_late": 120,
+      "apd": null
+    },
+    "based": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 6.09341987001244e-06
+    },
+    "slay": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.2262617019587196e-05
+    },
+    "lit": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.4639372137899045e-06
+    },
+    "fire": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.047316002062871e-06
+    },
+    "sus": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.806760600535199e-05
+    },
+    "drip": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 9.380190022056922e-06
+    },
+    "vibe": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.0789649372309214e-06
+    },
+    "flex": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.152600634668488e-05
+    },
+    "tea": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.1228488801862113e-05
+    },
+    "ghosted": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.883714271069039e-06
+    },
+    "lowkey": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 5.8788600654224865e-06
+    },
+    "highkey": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.130175511818379e-06
+    },
+    "shook": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.9551072202593787e-06
+    },
+    "iconic": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.5314432099985424e-06
+    },
+    "period": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.00406381580978632
+    },
+    "snatched": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 7.458746404154226e-05
+    },
+    "wig": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.8962935428135097e-05
+    },
+    "goat": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.0893026228586677e-05
+    },
+    "no cap": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.00013593806943390518
+    },
+    "bet": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.087719844392268e-06
+    },
+    "fr": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.00015226360119413584
+    },
+    "salty": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.4507119127956685e-06
+    },
+    "camp": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.7641199267236516e-06
+    },
+    "extra": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.607541773613775e-06
+    },
+    "woke": {
+      "group": "general_slang",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.439601869104081e-06
+    },
+    "book": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.348799287370639e-06
+    },
+    "window": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.1401006051746663e-06
+    },
+    "river": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.0006852255901321769
+    },
+    "table": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.8566391872809618e-06
+    },
+    "coffee": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 4.8533702283748426e-06
+    },
+    "school": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 8.503956451022532e-06
+    },
+    "friend": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.0621923795260955e-06
+    },
+    "music": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.4850762201822363e-05
+    },
+    "summer": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.0657314507843694e-06
+    },
+    "winter": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.225699518021429e-06
+    },
+    "door": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.1345706500142114e-06
+    },
+    "chair": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.62204139289679e-06
+    },
+    "paper": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.8269171050633304e-05
+    },
+    "water": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.920296876458451e-06
+    },
+    "morning": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.6522577627474675e-06
+    },
+    "garden": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.5079607439693063e-06
+    },
+    "city": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.2875642571307253e-06
+    },
+    "hospital": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.4840480844213744e-06
+    },
+    "bottle": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.789315203699516e-06
+    },
+    "phone": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.6300715489924187e-06
+    },
+    "letter": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.746627615124453e-06
+    },
+    "market": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 1.2364901067485334e-06
+    },
+    "bridge": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 0.0013867368688806891
+    },
+    "forest": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 2.461448275425937e-06
+    },
+    "ocean": {
+      "group": "standard_control",
+      "n_early": 120,
+      "n_late": 120,
+      "apd": 3.185090008628322e-06
+    }
+  },
+  "group_mean_apd_balanced": {
+    "brainrot": 0.0007809476277236892,
+    "general_slang": 0.00018457353791745846,
+    "standard_control": 8.69118665559654e-05
+  },
+  "pairwise_mannwhitney": {
+    "brainrot_vs_general_slang": {
+      "u_statistic": 592.0,
+      "p_two_sided": 0.49218353441901075,
+      "n_a": 43,
+      "n_b": 25
+    },
+    "brainrot_vs_standard_control": {
+      "u_statistic": 842.0,
+      "p_two_sided": 0.00011033832589777108,
+      "n_a": 43,
+      "n_b": 25
+    },
+    "general_slang_vs_standard_control": {
+      "u_statistic": 482.0,
+      "p_two_sided": 0.0010414549834444004,
+      "n_a": 25,
+      "n_b": 25
+    }
+  }
+}

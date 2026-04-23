@@ -1,0 +1,9 @@
+{
+  "description": "Pullpush comment search subreddits. Youth-focused trio plus AskReddit for broader English (stratification in corpus_coverage.json).",
+  "subreddits": [
+    "GenZ",
+    "teenagers",
+    "memes",
+    "AskReddit"
+  ]
+}
